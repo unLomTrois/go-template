@@ -2,7 +2,7 @@ package template
 
 import "fmt"
 
-// New ...
-func New() {
+// Hello ...
+func Hello() {
 	fmt.Println("hello template")
 }

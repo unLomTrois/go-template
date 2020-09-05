@@ -1,10 +1,10 @@
 package main
 
 import (
-	"template/internal/app/template"
+	"template/internal/app/hello"
 )
 
 func main() {
 
-	template.New()
+	template.Hello()
 }
