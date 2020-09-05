@@ -1,2 +1,3 @@
 # go-template
-blahblahblah
+
+Based on https://github.com/golang-standards/project-layout
