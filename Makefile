@@ -1,10 +1,12 @@
 cmd = ./cmd/template/
+output = ./bin/
 
 all = build run
 .PHONY: all
 
 build:
-	go build -v $(cmd)
+	mkdir -p $(output)
+	go build -v -o $(output) $(cmd)
 
 run:
 	go run -v $(cmd)
